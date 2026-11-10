@@ -1,0 +1,726 @@
+{
+  "slug": "awesome-pix",
+  "language": "tr",
+  "title": "Awesome Pix",
+  "description": "Entegre edenler için Pix: normlar, API'ler, SDK'lar, sağlayıcılar ve araçlar, tek tek kontrol edilmiş.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "Normlar ve resmi dokümantasyon",
+      "items": [
+        {
+          "name": "Pix no Banco Central",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pix-pix-no-banco-central",
+          "description": "Pix'in resmi sayfası: ne olduğu, nasıl çalıştığı ve diğer kaynaklara bağlantılar.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Normas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-normas",
+          "link": "https://go.mymarketing.click/pix-normas-do-pix",
+          "description": "Pix'in düzenlemesi, kararları ve kılavuzları.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pixautomatico",
+          "link": "https://go.mymarketing.click/pix-pix-automatico",
+          "description": "Pagayan kişi tarafından bir kez yetkilendirilen tekrarlayan tahsilatlar için modalite.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Participantes do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/participantespix",
+          "link": "https://go.mymarketing.click/pix-participantes-do-pix",
+          "description": "Pix sunan kurumların ve hangi modaliteyi sunduklarının listesi.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Estatísticas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix",
+          "link": "https://go.mymarketing.click/pix-estatisticas-do-pix",
+          "description": "Resmi işlem sayıları, tutarları ve anahtarları.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Perguntas frequentes do Pix",
+          "url": "https://www.bcb.gov.br/meubc/faqs/s/pix",
+          "link": "https://go.mymarketing.click/pix-perguntas-frequentes-do-pix",
+          "description": "Banco Central'in Pix kullanıcılarının en sık sorduğu sorulara verdiği yanıtlar.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "especificacoes",
+      "title": "Belirtimler ve açık API'ler",
+      "items": [
+        {
+          "name": "API Pix",
+          "url": "https://github.com/bacen/pix-api",
+          "link": "https://go.mymarketing.click/pix-api-pix",
+          "description": "Sağlayıcıların tahsilat ve ödeme alma için uyguladığı Pix API'sinin OpenAPI belirtimi.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "API do DICT",
+          "url": "https://github.com/bacen/pix-dict-api",
+          "link": "https://go.mymarketing.click/pix-api-do-dict",
+          "description": "Pix anahtarlarının tutulduğu İşlem Hesapları Tanımlayıcıları Dizini (DICT) API'sinin belirtimi.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DICT Quickstart",
+          "url": "https://github.com/bacen/pix-dict-quickstart",
+          "link": "https://go.mymarketing.click/pix-dict-quickstart",
+          "description": "DICT API'si ile ilk adımlar için bir rehber.",
+          "tags": [
+            "oficial",
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "provedores",
+      "title": "Pix API'si sunan sağlayıcılar",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/payment-methods/pix",
+          "link": "https://go.mymarketing.click/pix-adyen",
+          "description": "Adyen'in küresel platformunda ödeme yöntemi olarak Pix.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pix-asaas",
+          "description": "Asaas API dokümantasyonu; Pix, boleto ve kartla tahsilat.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco do Brasil",
+          "url": "https://www.bb.com.br/site/developers/",
+          "link": "https://go.mymarketing.click/pix-banco-do-brasil",
+          "description": "Banco do Brasil geliştirici portalı, Pix API'si ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco Inter",
+          "url": "https://developers.inter.co/",
+          "link": "https://go.mymarketing.click/pix-banco-inter",
+          "description": "Inter geliştirici portalı, Pix ve tahsilat API'leri ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Bradesco",
+          "url": "https://developers.bradesco.com.br/",
+          "link": "https://go.mymarketing.click/pix-bradesco",
+          "description": "Bradesco geliştirici portalı, Pix API'leri ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Celcoin",
+          "url": "https://developers.celcoin.com.br/",
+          "link": "https://go.mymarketing.click/pix-celcoin",
+          "description": "Finansal ürünler geliştiren şirketler için Pix API'leri sunan ödeme altyapısı.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cora",
+          "url": "https://developers.cora.com.br/",
+          "link": "https://go.mymarketing.click/pix-cora",
+          "description": "Cora'nın kurumsal hesapta tahsilat ve Pix için API'leri.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pix-dlocal",
+          "description": "Gelişmekte olan pazarlarda ödemeler; Brezilya'da kabul edilen yöntemler arasında Pix de var.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pix-ebanx",
+          "description": "Latin Amerika'da yerel ödemeler; Brezilya'nın içinden ve dışından şirketler için Pix ile.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/docs/api-pix/credenciais/",
+          "link": "https://go.mymarketing.click/pix-efi",
+          "description": "Eski adı Gerencianet olan Efí'nin Pix API dokümantasyonu; tahsilat, webhook ve Pix Otomatik ile.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Itaú",
+          "url": "https://devportal.itau.com.br/",
+          "link": "https://go.mymarketing.click/pix-itau",
+          "description": "Itaú geliştirici portalı, Pix API'leri ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pix-iugu",
+          "description": "Iugu API dokümantasyonu; Pix kabul eden tahsilatlar ve abonelikler ile.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/checkout-api-orders/payment-integration/websites/pix",
+          "link": "https://go.mymarketing.click/pix-mercado-pago",
+          "description": "Mercado Pago Checkout API ile QR Code ve kopyala-yapıştır üzerinden Pix alma.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix",
+          "url": "https://developers.openpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-openpix",
+          "description": "OpenPix dokümantasyonu; API, webhook ve eklentilerle Pix tahsilat platformu.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pix-pagbank",
+          "description": "PagBank geliştirici portalı, Pix ile siparişler ve tahsilatlar ile.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pix-pagar-me",
+          "description": "Pagar.me API dokümantasyonu; Pix, kart ve boleto ile ödemeler.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Santander",
+          "url": "https://developer.santander.com.br/",
+          "link": "https://go.mymarketing.click/pix-santander",
+          "description": "Santander geliştirici portalı, Pix API'leri ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Sicredi",
+          "url": "https://developer.sicredi.com.br/",
+          "link": "https://go.mymarketing.click/pix-sicredi",
+          "description": "Sicredi geliştirici portalı, Pix ve tahsilat API'leri ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/pix",
+          "link": "https://go.mymarketing.click/pix-stripe",
+          "description": "Stripe'ta ödeme yöntemi olarak Pix, halihazırda oradan tahsilat yapanlar için.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Transfeera",
+          "url": "https://docs.transfeera.dev/",
+          "link": "https://go.mymarketing.click/pix-transfeera",
+          "description": "Pix ile ödeme ve tahsilat API'leri; mutabakat dahil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi",
+          "url": "https://developers.woovi.com/",
+          "link": "https://go.mymarketing.click/pix-woovi",
+          "description": "Woovi dokümantasyonu; Pix ile tahsilatlar, abonelikler ve webhook'lar.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-oficiais",
+      "title": "Sağlayıcıların resmi SDK'ları",
+      "items": [
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-node-js",
+          "description": "Efí API'leri için Node.js SDK'sı; QR Code ve kopyala-yapıştır ile Pix tahsilatları.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-php",
+          "description": "Efí API'leri için PHP SDK'sı; QR Code ve kopyala-yapıştır ile Pix tahsilatları.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Gerencianet SDK Python",
+          "url": "https://github.com/gerencianet/gn-api-sdk-python",
+          "link": "https://go.mymarketing.click/pix-gerencianet-sdk-python",
+          "description": "Eski adı Gerencianet ile yayımlanan Efí API'si için Python SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK .NET",
+          "url": "https://github.com/mercadopago/sdk-dotnet",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-net",
+          "description": "Mercado Pago'nun .NET için resmi SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Java",
+          "url": "https://github.com/mercadopago/sdk-java",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-java",
+          "description": "Mercado Pago'nun Java için resmi SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-node-js",
+          "description": "Mercado Pago için resmi Node.js SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-php",
+          "description": "Mercado Pago için resmi PHP SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-python",
+          "description": "Mercado Pago için resmi Python SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix Developers",
+          "url": "https://github.com/Open-Pix/openpix-developers",
+          "link": "https://go.mymarketing.click/pix-openpix-developers",
+          "description": "OpenPix dokümantasyonunun kodu, entegrasyon örnekleriyle birlikte.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi Developers",
+          "url": "https://github.com/woovibr/woovi-developers",
+          "link": "https://go.mymarketing.click/pix-woovi-developers",
+          "description": "Woovi dokümantasyonunun kodu, entegrasyon örnekleriyle birlikte.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "bibliotecas",
+      "title": "Açık kaynaklı kütüphaneler",
+      "items": [
+        {
+          "name": "brcode",
+          "url": "https://github.com/naomijub/brcode",
+          "link": "https://go.mymarketing.click/pix-brcode",
+          "description": "Rust ile yazılmış Pix BR Code okuyucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "emv-qrcode",
+          "url": "https://github.com/mvallim/emv-qrcode",
+          "link": "https://go.mymarketing.click/pix-emv-qrcode",
+          "description": "Java ile yazılmış EMV standardında QR Code üretici ve okuyucu. BR Code de bu standardı izler.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "go-pix",
+          "url": "https://github.com/fonini/go-pix",
+          "link": "https://go.mymarketing.click/pix-go-pix",
+          "description": "Pix copia e cola ve QR Code üretmek için Go kütüphanesi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php_qrcode_pix",
+          "url": "https://github.com/renatomb/php_qrcode_pix",
+          "link": "https://go.mymarketing.click/pix-php-qrcode-pix",
+          "description": "PHP ile Pix QR Code üretimi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PHPay",
+          "url": "https://github.com/phpay-io/phpay",
+          "link": "https://go.mymarketing.click/pix-phpay",
+          "description": "Birden fazla ödeme sağlayıcısını aynı arayüzle entegre etmek için PHP kütüphanesi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-payload",
+          "url": "https://github.com/devcarlosalberto/pix-payload",
+          "link": "https://go.mymarketing.click/pix-pix-payload",
+          "description": "Banco Central standardını izleyerek Pix payload'ı üreten npm paketi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-utils",
+          "url": "https://github.com/thalesog/pix-utils",
+          "link": "https://go.mymarketing.click/pix-pix-utils",
+          "description": "Pix kodlarını okumak, üretmek ve doğrulamak için TypeScript araçları.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PIX-BACEN-SDK-dotnet",
+          "url": "https://github.com/guibranco/PIX-BACEN-SDK-dotnet",
+          "link": "https://go.mymarketing.click/pix-pix-bacen-sdk-dotnet",
+          "description": "Banco Central Pix API'sinin resmi belirtimden üretilmiş .NET sözleşmeleri.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pypix",
+          "url": "https://github.com/cleitonleonel/pypix",
+          "link": "https://go.mymarketing.click/pix-pypix",
+          "description": "BR Code ve Pix QR Code üretmek için Python kütüphanesi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-comunidade",
+      "title": "Topluluk SDK'ları",
+      "items": [
+        {
+          "name": "asaas (TypeScript)",
+          "url": "https://github.com/eduardobernardo/asaas",
+          "link": "https://go.mymarketing.click/pix-asaas-typescript",
+          "description": "Asaas API'sinin en çok kullanılan çağrılarını soyutlayan TypeScript SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "asaas-sdk (PHP)",
+          "url": "https://github.com/codephix/asaas-sdk",
+          "link": "https://go.mymarketing.click/pix-asaas-sdk-php",
+          "description": "Asaas API'si için PHP SDK'sı.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Veri ve yardımcı araçlar",
+      "items": [
+        {
+          "name": "Bancos Brasileiros",
+          "url": "https://github.com/guibranco/BancosBrasileiros",
+          "link": "https://go.mymarketing.click/pix-bancos-brasileiros",
+          "description": "Kodları, ISPB'leri ve adlarıyla Brezilya bankalarının listesi, çeşitli formatlarda.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ferramentas",
+      "title": "Araçlar",
+      "items": [
+        {
+          "name": "Gerador de QR Code Pix",
+          "url": "https://www.gerarpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-gerador-de-qr-code-pix",
+          "description": "Anahtardan tarayıcıda Pix QR Code, plaka ve bağlantı oluşturur.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pix-infrastructure-payments",
+          "description": "Hesabınızdaki Mercado Pago üzerinden Pix ve kartla tek seferlik tahsilat; REST, React SDK ve MCP ile.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pix-marketing-stores",
+          "description": "Pix ödemeli, QR Code ve copia e cola destekli, kart ödemeleri mağaza sahibinin Mercado Pago hesabına giden çevrim içi mağaza.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Diğer listeler ve topluluklar",
+      "items": [
+        {
+          "name": "awesome-pix (Woovi)",
+          "url": "https://github.com/woovibr/awesome-pix",
+          "link": "https://go.mymarketing.click/pix-awesome-pix-woovi",
+          "description": "Woovi tarafından sürdürülen, Pix hakkında ilk kaynak listesi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

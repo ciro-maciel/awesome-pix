@@ -1,0 +1,726 @@
+{
+  "slug": "awesome-pix",
+  "language": "de",
+  "title": "Awesome Pix",
+  "description": "Pix für Entwickler: Regelwerk, APIs, SDKs, Anbieter und Werkzeuge, jeweils einzeln geprüft.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "Regelwerk und offizielle Dokumentation",
+      "items": [
+        {
+          "name": "Pix no Banco Central",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pix-pix-no-banco-central",
+          "description": "Die offizielle Pix-Seite mit Erklärung, Funktionsweise und Links zum Rest.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Normas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-normas",
+          "link": "https://go.mymarketing.click/pix-normas-do-pix",
+          "description": "Die Verordnung, die Regelungen und die Handbücher zu Pix.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pixautomatico",
+          "link": "https://go.mymarketing.click/pix-pix-automatico",
+          "description": "Die Variante für wiederkehrende Abbuchungen, die der Zahler einmal genehmigt.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Participantes do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/participantespix",
+          "link": "https://go.mymarketing.click/pix-participantes-do-pix",
+          "description": "Die Liste der Institute, die Pix anbieten, und in welcher Variante.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Estatísticas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix",
+          "link": "https://go.mymarketing.click/pix-estatisticas-do-pix",
+          "description": "Die offiziellen Zahlen zu Transaktionen, Beträgen und Schlüsseln.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Perguntas frequentes do Pix",
+          "url": "https://www.bcb.gov.br/meubc/faqs/s/pix",
+          "link": "https://go.mymarketing.click/pix-perguntas-frequentes-do-pix",
+          "description": "Antworten der Banco Central auf die häufigsten Fragen zu Pix.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "especificacoes",
+      "title": "Spezifikationen und offene APIs",
+      "items": [
+        {
+          "name": "API Pix",
+          "url": "https://github.com/bacen/pix-api",
+          "link": "https://go.mymarketing.click/pix-api-pix",
+          "description": "Die OpenAPI-Spezifikation der Pix-API, die Anbieter für Zahlungsanforderungen und Zahlungseingang implementieren.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "API do DICT",
+          "url": "https://github.com/bacen/pix-dict-api",
+          "link": "https://go.mymarketing.click/pix-api-do-dict",
+          "description": "Die Spezifikation der API des Verzeichnisses für Transaktionskontenkennungen DICT, in dem die Pix-Schlüssel gespeichert sind.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DICT Quickstart",
+          "url": "https://github.com/bacen/pix-dict-quickstart",
+          "link": "https://go.mymarketing.click/pix-dict-quickstart",
+          "description": "Ein Einstiegsleitfaden zur DICT-API.",
+          "tags": [
+            "oficial",
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "provedores",
+      "title": "Anbieter mit Pix-API",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/payment-methods/pix",
+          "link": "https://go.mymarketing.click/pix-adyen",
+          "description": "Pix als Zahlungsmethode auf der globalen Plattform von Adyen.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pix-asaas",
+          "description": "Dokumentation der Asaas-API mit Zahlungen per Pix, Boleto und Karte.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco do Brasil",
+          "url": "https://www.bb.com.br/site/developers/",
+          "link": "https://go.mymarketing.click/pix-banco-do-brasil",
+          "description": "Das Entwicklerportal der Banco do Brasil mit der Pix-API.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco Inter",
+          "url": "https://developers.inter.co/",
+          "link": "https://go.mymarketing.click/pix-banco-inter",
+          "description": "Das Entwicklerportal von Inter mit APIs für Pix und Zahlungsanforderungen.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Bradesco",
+          "url": "https://developers.bradesco.com.br/",
+          "link": "https://go.mymarketing.click/pix-bradesco",
+          "description": "Das Entwicklerportal von Bradesco mit Pix-APIs.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Celcoin",
+          "url": "https://developers.celcoin.com.br/",
+          "link": "https://go.mymarketing.click/pix-celcoin",
+          "description": "Zahlungsinfrastruktur mit Pix-APIs für Unternehmen, die Finanzprodukte entwickeln.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cora",
+          "url": "https://developers.cora.com.br/",
+          "link": "https://go.mymarketing.click/pix-cora",
+          "description": "Die APIs von Cora für Zahlungsanforderungen und Pix auf dem Geschäftskonto.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pix-dlocal",
+          "description": "Zahlungen in Schwellenmärkten, mit Pix unter den akzeptierten Methoden in Brasilien.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pix-ebanx",
+          "description": "Lokale Zahlungen in Lateinamerika, mit Pix für Unternehmen aus dem In- und Ausland.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/docs/api-pix/credenciais/",
+          "link": "https://go.mymarketing.click/pix-efi",
+          "description": "Die Dokumentation der Pix-API von Efí, früher Gerencianet, mit Zahlungsanforderung, Webhook und Pix Automático.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Itaú",
+          "url": "https://devportal.itau.com.br/",
+          "link": "https://go.mymarketing.click/pix-itau",
+          "description": "Das Entwicklerportal von Itaú mit Pix-APIs.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pix-iugu",
+          "description": "Dokumentation der Iugu-API mit Zahlungsanforderungen und Abos, die Pix akzeptieren.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/checkout-api-orders/payment-integration/websites/pix",
+          "link": "https://go.mymarketing.click/pix-mercado-pago",
+          "description": "So nimmst du Pix über die Checkout API von Mercado Pago entgegen, mit QR Code und copia e cola.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix",
+          "url": "https://developers.openpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-openpix",
+          "description": "Die Dokumentation zu OpenPix, einer Plattform für Pix-Zahlungsanforderungen mit API, Webhooks und Plugins.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pix-pagbank",
+          "description": "Das Entwicklerportal von PagBank mit Bestellungen und Pix-Zahlungsanforderungen.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pix-pagar-me",
+          "description": "Dokumentation der Pagar.me-API mit Zahlungen per Pix, Karte und Boleto.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Santander",
+          "url": "https://developer.santander.com.br/",
+          "link": "https://go.mymarketing.click/pix-santander",
+          "description": "Das Entwicklerportal von Santander mit Pix-APIs.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Sicredi",
+          "url": "https://developer.sicredi.com.br/",
+          "link": "https://go.mymarketing.click/pix-sicredi",
+          "description": "Das Entwicklerportal von Sicredi mit Pix-APIs und Zahlungsanforderungen.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/pix",
+          "link": "https://go.mymarketing.click/pix-stripe",
+          "description": "Pix als Zahlungsmethode bei Stripe, für alle, die dort schon abrechnen.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Transfeera",
+          "url": "https://docs.transfeera.dev/",
+          "link": "https://go.mymarketing.click/pix-transfeera",
+          "description": "APIs für Zahlungen und Zahlungseingang per Pix, mit Abstimmung.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi",
+          "url": "https://developers.woovi.com/",
+          "link": "https://go.mymarketing.click/pix-woovi",
+          "description": "Die Dokumentation zu Woovi mit Zahlungsanforderungen, Abos und Webhooks für Pix.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-oficiais",
+      "title": "Offizielle SDKs der Anbieter",
+      "items": [
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-node-js",
+          "description": "SDK für Node.js zu den APIs von Efí, mit Pix-Zahlungsanforderungen per QR Code und copia e cola.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-php",
+          "description": "SDK für PHP zu den APIs von Efí, mit Pix-Zahlungsanforderungen per QR Code und copia e cola.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Gerencianet SDK Python",
+          "url": "https://github.com/gerencianet/gn-api-sdk-python",
+          "link": "https://go.mymarketing.click/pix-gerencianet-sdk-python",
+          "description": "SDK für Python zur API von Efí, veröffentlicht unter dem alten Namen Gerencianet.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK .NET",
+          "url": "https://github.com/mercadopago/sdk-dotnet",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-net",
+          "description": "Das offizielle SDK von Mercado Pago für .NET.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Java",
+          "url": "https://github.com/mercadopago/sdk-java",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-java",
+          "description": "Das offizielle SDK von Mercado Pago für Java.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-node-js",
+          "description": "Das offizielle SDK von Mercado Pago für Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-php",
+          "description": "Das offizielle SDK von Mercado Pago für PHP.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-python",
+          "description": "Das offizielle SDK von Mercado Pago für Python.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix Developers",
+          "url": "https://github.com/Open-Pix/openpix-developers",
+          "link": "https://go.mymarketing.click/pix-openpix-developers",
+          "description": "Der Code der OpenPix-Dokumentation mit Integrationsbeispielen.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi Developers",
+          "url": "https://github.com/woovibr/woovi-developers",
+          "link": "https://go.mymarketing.click/pix-woovi-developers",
+          "description": "Der Code der Woovi-Dokumentation mit Integrationsbeispielen.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "bibliotecas",
+      "title": "Open-Source-Bibliotheken",
+      "items": [
+        {
+          "name": "brcode",
+          "url": "https://github.com/naomijub/brcode",
+          "link": "https://go.mymarketing.click/pix-brcode",
+          "description": "BR-Code-Leser für Pix in Rust.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "emv-qrcode",
+          "url": "https://github.com/mvallim/emv-qrcode",
+          "link": "https://go.mymarketing.click/pix-emv-qrcode",
+          "description": "Generator und Leser für QR Codes im EMV-Standard in Java, dem Standard, dem BR Code folgt.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "go-pix",
+          "url": "https://github.com/fonini/go-pix",
+          "link": "https://go.mymarketing.click/pix-go-pix",
+          "description": "Bibliothek in Go zum Erzeugen von Pix copia e cola und QR Code.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php_qrcode_pix",
+          "url": "https://github.com/renatomb/php_qrcode_pix",
+          "link": "https://go.mymarketing.click/pix-php-qrcode-pix",
+          "description": "Erzeugung des Pix-QR-Codes in PHP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PHPay",
+          "url": "https://github.com/phpay-io/phpay",
+          "link": "https://go.mymarketing.click/pix-phpay",
+          "description": "PHP-Bibliothek zur Anbindung mehrerer Zahlungsanbieter über dieselbe Schnittstelle.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-payload",
+          "url": "https://github.com/devcarlosalberto/pix-payload",
+          "link": "https://go.mymarketing.click/pix-pix-payload",
+          "description": "npm-Paket, das den Pix-Payload nach dem Standard der Banco Central erzeugt.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-utils",
+          "url": "https://github.com/thalesog/pix-utils",
+          "link": "https://go.mymarketing.click/pix-pix-utils",
+          "description": "Werkzeuge in TypeScript zum Lesen, Erzeugen und Validieren von Pix-Codes.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PIX-BACEN-SDK-dotnet",
+          "url": "https://github.com/guibranco/PIX-BACEN-SDK-dotnet",
+          "link": "https://go.mymarketing.click/pix-pix-bacen-sdk-dotnet",
+          "description": "Die Verträge der Pix-API der Banco Central in .NET, aus der offiziellen Spezifikation generiert.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pypix",
+          "url": "https://github.com/cleitonleonel/pypix",
+          "link": "https://go.mymarketing.click/pix-pypix",
+          "description": "Bibliothek in Python zum Erzeugen von BR Code und Pix-QR-Code.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-comunidade",
+      "title": "Community-SDKs",
+      "items": [
+        {
+          "name": "asaas (TypeScript)",
+          "url": "https://github.com/eduardobernardo/asaas",
+          "link": "https://go.mymarketing.click/pix-asaas-typescript",
+          "description": "SDK in TypeScript, das die meistgenutzten Aufrufe der Asaas-API abstrahiert.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "asaas-sdk (PHP)",
+          "url": "https://github.com/codephix/asaas-sdk",
+          "link": "https://go.mymarketing.click/pix-asaas-sdk-php",
+          "description": "SDK in PHP für die Asaas-API.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Daten und Hilfsprogramme",
+      "items": [
+        {
+          "name": "Bancos Brasileiros",
+          "url": "https://github.com/guibranco/BancosBrasileiros",
+          "link": "https://go.mymarketing.click/pix-bancos-brasileiros",
+          "description": "Liste der brasilianischen Banken mit Code, ISPB und Name in mehreren Formaten.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ferramentas",
+      "title": "Werkzeuge",
+      "items": [
+        {
+          "name": "Gerador de QR Code Pix",
+          "url": "https://www.gerarpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-gerador-de-qr-code-pix",
+          "description": "Erzeugt im Browser einen Pix-QR-Code, eine Karte und einen Link aus dem Schlüssel.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pix-infrastructure-payments",
+          "description": "Einzelne Zahlungsanforderung per Pix und Karte über das Mercado-Pago-Konto, mit REST, React-SDK und MCP.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pix-marketing-stores",
+          "description": "Online-Shop mit Zahlung per Pix, mit QR Code und copia e cola sowie Karte direkt über das Mercado-Pago-Konto des Inhabers.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Andere Listen und Communitys",
+      "items": [
+        {
+          "name": "awesome-pix (Woovi)",
+          "url": "https://github.com/woovibr/awesome-pix",
+          "link": "https://go.mymarketing.click/pix-awesome-pix-woovi",
+          "description": "Die erste Ressourcenliste zu Pix, gepflegt von Woovi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

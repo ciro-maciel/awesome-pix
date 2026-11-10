@@ -1,0 +1,726 @@
+{
+  "slug": "awesome-pix",
+  "language": "vi",
+  "title": "Awesome Pix",
+  "description": "Pix cho người tích hợp: quy định, API, SDK, nhà cung cấp và công cụ, đã kiểm tra từng mục.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "Quy định và tài liệu chính thức",
+      "items": [
+        {
+          "name": "Pix no Banco Central",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pix-pix-no-banco-central",
+          "description": "Trang chính thức của Pix, với giải thích là gì, hoạt động ra sao và liên kết tới phần còn lại.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Normas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-normas",
+          "link": "https://go.mymarketing.click/pix-normas-do-pix",
+          "description": "Quy định, nghị quyết và hướng dẫn điều chỉnh Pix.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pixautomatico",
+          "link": "https://go.mymarketing.click/pix-pix-automatico",
+          "description": "Hình thức cho các khoản thu định kỳ đã được người trả tiền ủy quyền một lần.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Participantes do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/participantespix",
+          "link": "https://go.mymarketing.click/pix-participantes-do-pix",
+          "description": "Danh sách các tổ chức cung cấp Pix và hình thức họ hỗ trợ.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Estatísticas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix",
+          "link": "https://go.mymarketing.click/pix-estatisticas-do-pix",
+          "description": "Các số liệu chính thức về giao dịch, giá trị và khóa.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Perguntas frequentes do Pix",
+          "url": "https://www.bcb.gov.br/meubc/faqs/s/pix",
+          "link": "https://go.mymarketing.click/pix-perguntas-frequentes-do-pix",
+          "description": "Câu trả lời của Ngân hàng Trung ương cho những thắc mắc phổ biến nhất của người dùng Pix.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "especificacoes",
+      "title": "Đặc tả và API mở",
+      "items": [
+        {
+          "name": "API Pix",
+          "url": "https://github.com/bacen/pix-api",
+          "link": "https://go.mymarketing.click/pix-api-pix",
+          "description": "Đặc tả OpenAPI của API Pix, mà các nhà cung cấp triển khai để tạo và nhận thanh toán.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "API do DICT",
+          "url": "https://github.com/bacen/pix-dict-api",
+          "link": "https://go.mymarketing.click/pix-api-do-dict",
+          "description": "Đặc tả API của Danh bạ Định danh Tài khoản Giao dịch, nơi lưu trữ các khóa Pix.",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DICT Quickstart",
+          "url": "https://github.com/bacen/pix-dict-quickstart",
+          "link": "https://go.mymarketing.click/pix-dict-quickstart",
+          "description": "Hướng dẫn bắt đầu nhanh với API của DICT.",
+          "tags": [
+            "oficial",
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "provedores",
+      "title": "Nhà cung cấp có API Pix",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/payment-methods/pix",
+          "link": "https://go.mymarketing.click/pix-adyen",
+          "description": "Pix như một phương thức thanh toán trên nền tảng toàn cầu của Adyen.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pix-asaas",
+          "description": "Tài liệu API của Asaas, với thu tiền qua Pix, boleto và thẻ.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco do Brasil",
+          "url": "https://www.bb.com.br/site/developers/",
+          "link": "https://go.mymarketing.click/pix-banco-do-brasil",
+          "description": "Cổng dành cho nhà phát triển của Banco do Brasil, với API Pix.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco Inter",
+          "url": "https://developers.inter.co/",
+          "link": "https://go.mymarketing.click/pix-banco-inter",
+          "description": "Cổng dành cho nhà phát triển của Inter, với API Pix và thu tiền.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Bradesco",
+          "url": "https://developers.bradesco.com.br/",
+          "link": "https://go.mymarketing.click/pix-bradesco",
+          "description": "Cổng dành cho nhà phát triển của Bradesco, với API Pix.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Celcoin",
+          "url": "https://developers.celcoin.com.br/",
+          "link": "https://go.mymarketing.click/pix-celcoin",
+          "description": "Hạ tầng thanh toán với API Pix cho doanh nghiệp xây dựng sản phẩm tài chính.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cora",
+          "url": "https://developers.cora.com.br/",
+          "link": "https://go.mymarketing.click/pix-cora",
+          "description": "Các API của Cora để thu tiền và Pix trong tài khoản doanh nghiệp.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pix-dlocal",
+          "description": "Thanh toán tại các thị trường mới nổi, với Pix nằm trong số phương thức được chấp nhận tại Brazil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pix-ebanx",
+          "description": "Thanh toán nội địa tại Mỹ Latinh, với Pix cho doanh nghiệp trong và ngoài Brazil.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/docs/api-pix/credenciais/",
+          "link": "https://go.mymarketing.click/pix-efi",
+          "description": "Tài liệu API Pix của Efí, trước đây là Gerencianet, với thu tiền, webhook và Pix Automático.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Itaú",
+          "url": "https://devportal.itau.com.br/",
+          "link": "https://go.mymarketing.click/pix-itau",
+          "description": "Cổng dành cho nhà phát triển của Itaú, với API Pix.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pix-iugu",
+          "description": "Tài liệu API của Iugu, với thu tiền và đăng ký chấp nhận Pix.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/checkout-api-orders/payment-integration/websites/pix",
+          "link": "https://go.mymarketing.click/pix-mercado-pago",
+          "description": "Cách nhận Pix qua Checkout API của Mercado Pago, với QR Code và copia e cola.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix",
+          "url": "https://developers.openpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-openpix",
+          "description": "Tài liệu của OpenPix, nền tảng thu tiền qua Pix với API, webhook và plugin.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pix-pagbank",
+          "description": "Cổng dành cho nhà phát triển của PagBank, với đơn hàng và thu tiền qua Pix.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pix-pagar-me",
+          "description": "Tài liệu API của Pagar.me, với thanh toán qua Pix, thẻ và boleto.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Santander",
+          "url": "https://developer.santander.com.br/",
+          "link": "https://go.mymarketing.click/pix-santander",
+          "description": "Cổng dành cho nhà phát triển của Santander, với API Pix.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Sicredi",
+          "url": "https://developer.sicredi.com.br/",
+          "link": "https://go.mymarketing.click/pix-sicredi",
+          "description": "Cổng dành cho nhà phát triển của Sicredi, với API Pix và thu tiền.",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/pix",
+          "link": "https://go.mymarketing.click/pix-stripe",
+          "description": "Pix như một phương thức thanh toán trên Stripe, dành cho người đã thu tiền qua nền tảng này.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Transfeera",
+          "url": "https://docs.transfeera.dev/",
+          "link": "https://go.mymarketing.click/pix-transfeera",
+          "description": "API thanh toán và nhận tiền qua Pix, có đối soát.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi",
+          "url": "https://developers.woovi.com/",
+          "link": "https://go.mymarketing.click/pix-woovi",
+          "description": "Tài liệu API của Woovi, với thu tiền, đăng ký và webhook qua Pix.",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-oficiais",
+      "title": "SDK chính thức của nhà cung cấp",
+      "items": [
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-node-js",
+          "description": "SDK Node.js cho API của Efí, với thu tiền Pix bằng QR Code và copia e cola.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-php",
+          "description": "SDK PHP cho API của Efí, với thu tiền Pix bằng QR Code và copia e cola.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Gerencianet SDK Python",
+          "url": "https://github.com/gerencianet/gn-api-sdk-python",
+          "link": "https://go.mymarketing.click/pix-gerencianet-sdk-python",
+          "description": "SDK Python cho API của Efí, phát hành với tên cũ là Gerencianet.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK .NET",
+          "url": "https://github.com/mercadopago/sdk-dotnet",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-net",
+          "description": "SDK chính thức của Mercado Pago cho .NET.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Java",
+          "url": "https://github.com/mercadopago/sdk-java",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-java",
+          "description": "SDK chính thức của Mercado Pago cho Java.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-node-js",
+          "description": "SDK chính thức của Mercado Pago cho Node.js.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-php",
+          "description": "SDK chính thức của Mercado Pago cho PHP.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-python",
+          "description": "SDK chính thức của Mercado Pago cho Python.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix Developers",
+          "url": "https://github.com/Open-Pix/openpix-developers",
+          "link": "https://go.mymarketing.click/pix-openpix-developers",
+          "description": "Mã nguồn tài liệu của OpenPix, có ví dụ tích hợp.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi Developers",
+          "url": "https://github.com/woovibr/woovi-developers",
+          "link": "https://go.mymarketing.click/pix-woovi-developers",
+          "description": "Mã nguồn tài liệu của Woovi, có ví dụ tích hợp.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "bibliotecas",
+      "title": "Thư viện mã nguồn mở",
+      "items": [
+        {
+          "name": "brcode",
+          "url": "https://github.com/naomijub/brcode",
+          "link": "https://go.mymarketing.click/pix-brcode",
+          "description": "Trình đọc BR Code của Pix viết bằng Rust.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "emv-qrcode",
+          "url": "https://github.com/mvallim/emv-qrcode",
+          "link": "https://go.mymarketing.click/pix-emv-qrcode",
+          "description": "Công cụ tạo và đọc mã QR Code theo chuẩn EMV viết bằng Java, chuẩn mà BR Code tuân theo.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "go-pix",
+          "url": "https://github.com/fonini/go-pix",
+          "link": "https://go.mymarketing.click/pix-go-pix",
+          "description": "Thư viện Go để tạo copia e cola và mã QR Code của Pix.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php_qrcode_pix",
+          "url": "https://github.com/renatomb/php_qrcode_pix",
+          "link": "https://go.mymarketing.click/pix-php-qrcode-pix",
+          "description": "Tạo mã QR Code của Pix bằng PHP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PHPay",
+          "url": "https://github.com/phpay-io/phpay",
+          "link": "https://go.mymarketing.click/pix-phpay",
+          "description": "Thư viện PHP để tích hợp nhiều nhà cung cấp thanh toán với cùng một giao diện.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-payload",
+          "url": "https://github.com/devcarlosalberto/pix-payload",
+          "link": "https://go.mymarketing.click/pix-pix-payload",
+          "description": "Gói npm tạo payload Pix theo chuẩn của Banco Central.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-utils",
+          "url": "https://github.com/thalesog/pix-utils",
+          "link": "https://go.mymarketing.click/pix-pix-utils",
+          "description": "Công cụ TypeScript để đọc, tạo và kiểm tra mã Pix.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PIX-BACEN-SDK-dotnet",
+          "url": "https://github.com/guibranco/PIX-BACEN-SDK-dotnet",
+          "link": "https://go.mymarketing.click/pix-pix-bacen-sdk-dotnet",
+          "description": "Các hợp đồng API Pix của Banco Central cho .NET, được tạo từ đặc tả chính thức.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pypix",
+          "url": "https://github.com/cleitonleonel/pypix",
+          "link": "https://go.mymarketing.click/pix-pypix",
+          "description": "Thư viện Python để tạo BR Code và mã QR Code của Pix.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-comunidade",
+      "title": "SDK do cộng đồng phát triển",
+      "items": [
+        {
+          "name": "asaas (TypeScript)",
+          "url": "https://github.com/eduardobernardo/asaas",
+          "link": "https://go.mymarketing.click/pix-asaas-typescript",
+          "description": "SDK TypeScript đóng gói các lệnh gọi API Asaas thường dùng nhất.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "asaas-sdk (PHP)",
+          "url": "https://github.com/codephix/asaas-sdk",
+          "link": "https://go.mymarketing.click/pix-asaas-sdk-php",
+          "description": "SDK PHP cho API Asaas.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Dữ liệu và tiện ích",
+      "items": [
+        {
+          "name": "Bancos Brasileiros",
+          "url": "https://github.com/guibranco/BancosBrasileiros",
+          "link": "https://go.mymarketing.click/pix-bancos-brasileiros",
+          "description": "Danh sách ngân hàng Brazil kèm mã, ISPB và tên, ở nhiều định dạng.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ferramentas",
+      "title": "Công cụ",
+      "items": [
+        {
+          "name": "Gerador de QR Code Pix",
+          "url": "https://www.gerarpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-gerador-de-qr-code-pix",
+          "description": "Tạo mã QR Code, biển số và liên kết Pix trên trình duyệt từ khóa Pix.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pix-infrastructure-payments",
+          "description": "Thu phí lẻ bằng Pix và thẻ qua Mercado Pago của bạn, với REST, SDK React và MCP.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pix-marketing-stores",
+          "description": "Cửa hàng trực tuyến thanh toán bằng Pix, có mã QR Code và copia e cola, cùng thẻ trực tiếp qua Mercado Pago của chủ cửa hàng.",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Danh sách và cộng đồng khác",
+      "items": [
+        {
+          "name": "awesome-pix (Woovi)",
+          "url": "https://github.com/woovibr/awesome-pix",
+          "link": "https://go.mymarketing.click/pix-awesome-pix-woovi",
+          "description": "Danh sách tài nguyên về Pix đầu tiên, do Woovi duy trì.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

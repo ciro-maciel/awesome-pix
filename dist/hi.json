@@ -1,0 +1,726 @@
+{
+  "slug": "awesome-pix",
+  "language": "hi",
+  "title": "Awesome Pix",
+  "description": "Pix इंटीग्रेट करने वालों के लिए: नियम, APIs, SDKs, प्रदाता और टूल, एक-एक करके जाँचे गए।",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "normas",
+      "title": "नियम और आधिकारिक दस्तावेज़",
+      "items": [
+        {
+          "name": "Pix no Banco Central",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "link": "https://go.mymarketing.click/pix-pix-no-banco-central",
+          "description": "Pix का आधिकारिक पेज, जिसमें बताया गया है कि यह क्या है, कैसे काम करता है और बाकी के लिंक।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Normas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix-normas",
+          "link": "https://go.mymarketing.click/pix-normas-do-pix",
+          "description": "Pix से जुड़े नियम, प्रस्ताव और मैनुअल जो Pix को संचालित करते हैं।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pix Automático",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pixautomatico",
+          "link": "https://go.mymarketing.click/pix-pix-automatico",
+          "description": "आवर्ती भुगतान के लिए वह तरीका जिसे भुगतानकर्ता एक बार अधिकृत कर देता है।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Participantes do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/participantespix",
+          "link": "https://go.mymarketing.click/pix-participantes-do-pix",
+          "description": "वे संस्थान जो Pix देते हैं और किस रूप में देते हैं, इसकी सूची।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Estatísticas do Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix",
+          "link": "https://go.mymarketing.click/pix-estatisticas-do-pix",
+          "description": "लेन-देन, राशि और कुंजियों के आधिकारिक आंकड़े।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Perguntas frequentes do Pix",
+          "url": "https://www.bcb.gov.br/meubc/faqs/s/pix",
+          "link": "https://go.mymarketing.click/pix-perguntas-frequentes-do-pix",
+          "description": "Banco Central के उन सामान्य सवालों के जवाब जो Pix इस्तेमाल करते हैं।",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "especificacoes",
+      "title": "विनिर्देश और खुले APIs",
+      "items": [
+        {
+          "name": "API Pix",
+          "url": "https://github.com/bacen/pix-api",
+          "link": "https://go.mymarketing.click/pix-api-pix",
+          "description": "Pix API का OpenAPI विनिर्देश, जिसे प्रदाता भुगतान मांगने और प्राप्त करने के लिए लागू करते हैं।",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "API do DICT",
+          "url": "https://github.com/bacen/pix-dict-api",
+          "link": "https://go.mymarketing.click/pix-api-do-dict",
+          "description": "Transacional खाता पहचानकर्ता निर्देशिका के API का विनिर्देश, जहां Pix कुंजियां रहती हैं।",
+          "tags": [
+            "oficial",
+            "codigo-aberto",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DICT Quickstart",
+          "url": "https://github.com/bacen/pix-dict-quickstart",
+          "link": "https://go.mymarketing.click/pix-dict-quickstart",
+          "description": "DICT API के साथ शुरुआत करने की एक मार्गदर्शिका।",
+          "tags": [
+            "oficial",
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "provedores",
+      "title": "Pix API वाले प्रदाता",
+      "items": [
+        {
+          "name": "Adyen",
+          "url": "https://docs.adyen.com/payment-methods/pix",
+          "link": "https://go.mymarketing.click/pix-adyen",
+          "description": "Adyen के वैश्विक प्लेटफ़ॉर्म पर Pix भुगतान विकल्प के रूप में।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Asaas",
+          "url": "https://docs.asaas.com/",
+          "link": "https://go.mymarketing.click/pix-asaas",
+          "description": "Asaas API का दस्तावेज़, जिसमें Pix, बोलेटो और कार्ड से भुगतान शुल्क शामिल हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco do Brasil",
+          "url": "https://www.bb.com.br/site/developers/",
+          "link": "https://go.mymarketing.click/pix-banco-do-brasil",
+          "description": "Banco do Brasil का डेवलपर पोर्टल, जिसमें Pix API है।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Banco Inter",
+          "url": "https://developers.inter.co/",
+          "link": "https://go.mymarketing.click/pix-banco-inter",
+          "description": "Inter का डेवलपर पोर्टल, जिसमें Pix और भुगतान शुल्क की APIs हैं।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Bradesco",
+          "url": "https://developers.bradesco.com.br/",
+          "link": "https://go.mymarketing.click/pix-bradesco",
+          "description": "Bradesco का डेवलपर पोर्टल, जिसमें Pix APIs हैं।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Celcoin",
+          "url": "https://developers.celcoin.com.br/",
+          "link": "https://go.mymarketing.click/pix-celcoin",
+          "description": "वित्तीय उत्पाद बनाने वाली कंपनियों के लिए Pix APIs वाला भुगतान इंफ्रास्ट्रक्चर।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cora",
+          "url": "https://developers.cora.com.br/",
+          "link": "https://go.mymarketing.click/pix-cora",
+          "description": "व्यावसायिक खाते पर भुगतान शुल्क और Pix के लिए Cora की APIs।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "dLocal",
+          "url": "https://docs.dlocal.com/",
+          "link": "https://go.mymarketing.click/pix-dlocal",
+          "description": "उभरते बाज़ारों में भुगतान, जिनमें ब्राज़ील में Pix एक स्वीकृत विकल्प है।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "EBANX",
+          "url": "https://docs.ebanx.com/",
+          "link": "https://go.mymarketing.click/pix-ebanx",
+          "description": "लैटिन अमेरिका में स्थानीय भुगतान, जिसमें Pix ब्राज़ील के भीतर और बाहर की कंपनियों के लिए है।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí",
+          "url": "https://dev.efipay.com.br/docs/api-pix/credenciais/",
+          "link": "https://go.mymarketing.click/pix-efi",
+          "description": "Efí का Pix API दस्तावेज़, जिसमें भुगतान शुल्क, webhook और Pix Automático शामिल हैं। यह पहले Gerencianet के नाम से जाना जाता था।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Itaú",
+          "url": "https://devportal.itau.com.br/",
+          "link": "https://go.mymarketing.click/pix-itau",
+          "description": "Itaú का डेवलपर पोर्टल, जिसमें Pix APIs हैं।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Iugu",
+          "url": "https://dev.iugu.com/",
+          "link": "https://go.mymarketing.click/pix-iugu",
+          "description": "Iugu API का दस्तावेज़, जिसमें Pix स्वीकार करने वाले भुगतान शुल्क और सदस्यताएं हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/checkout-api-orders/payment-integration/websites/pix",
+          "link": "https://go.mymarketing.click/pix-mercado-pago",
+          "description": "Mercado Pago के Checkout API से QR Code और copia e cola के साथ Pix कैसे प्राप्त करें।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix",
+          "url": "https://developers.openpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-openpix",
+          "description": "OpenPix का दस्तावेज़, Pix भुगतान शुल्क का प्लेटफ़ॉर्म जिसमें API, webhooks और plugins हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PagBank",
+          "url": "https://developer.pagbank.com.br/",
+          "link": "https://go.mymarketing.click/pix-pagbank",
+          "description": "PagBank का डेवलपर पोर्टल, जिसमें ऑर्डर और Pix से भुगतान शुल्क हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Pagar.me",
+          "url": "https://docs.pagar.me/",
+          "link": "https://go.mymarketing.click/pix-pagar-me",
+          "description": "Pagar.me API का दस्तावेज़, जिसमें Pix, कार्ड और बोलेटो से भुगतान हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Santander",
+          "url": "https://developer.santander.com.br/",
+          "link": "https://go.mymarketing.click/pix-santander",
+          "description": "Santander का डेवलपर पोर्टल, जिसमें Pix APIs हैं।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Sicredi",
+          "url": "https://developer.sicredi.com.br/",
+          "link": "https://go.mymarketing.click/pix-sicredi",
+          "description": "Sicredi का डेवलपर पोर्टल, जिसमें Pix और भुगतान शुल्क की APIs हैं।",
+          "tags": [
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://docs.stripe.com/payments/pix",
+          "link": "https://go.mymarketing.click/pix-stripe",
+          "description": "Stripe पर Pix भुगतान विकल्प, उनके लिए जो पहले से उसके ज़रिए भुगतान लेते हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Transfeera",
+          "url": "https://docs.transfeera.dev/",
+          "link": "https://go.mymarketing.click/pix-transfeera",
+          "description": "सुलह के साथ Pix से भुगतान और प्राप्ति के APIs।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi",
+          "url": "https://developers.woovi.com/",
+          "link": "https://go.mymarketing.click/pix-woovi",
+          "description": "Woovi का दस्तावेज़, जिसमें Pix से भुगतान शुल्क, सदस्यताएं और webhooks हैं।",
+          "tags": [
+            "api",
+            "pago"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-oficiais",
+      "title": "प्रदाताओं के आधिकारिक SDK",
+      "items": [
+        {
+          "name": "Efí SDK Node.js",
+          "url": "https://github.com/efipay/sdk-node-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-node-js",
+          "description": "Efí APIs के लिए Node.js SDK, जिसमें QR Code और copia e cola से Pix भुगतान शुल्क हैं।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Efí SDK PHP",
+          "url": "https://github.com/efipay/sdk-php-apis-efi",
+          "link": "https://go.mymarketing.click/pix-efi-sdk-php",
+          "description": "Efí APIs के लिए PHP SDK, जिसमें QR Code और copia e cola से Pix भुगतान शुल्क हैं।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Gerencianet SDK Python",
+          "url": "https://github.com/gerencianet/gn-api-sdk-python",
+          "link": "https://go.mymarketing.click/pix-gerencianet-sdk-python",
+          "description": "Efí API के लिए Python SDK, जो पुराने नाम Gerencianet के साथ प्रकाशित है।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK .NET",
+          "url": "https://github.com/mercadopago/sdk-dotnet",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-net",
+          "description": ".NET के लिए Mercado Pago का आधिकारिक SDK।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Java",
+          "url": "https://github.com/mercadopago/sdk-java",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-java",
+          "description": "Java के लिए Mercado Pago का आधिकारिक SDK।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Node.js",
+          "url": "https://github.com/mercadopago/sdk-nodejs",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-node-js",
+          "description": "Mercado Pago का आधिकारिक Node.js SDK।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK PHP",
+          "url": "https://github.com/mercadopago/sdk-php",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-php",
+          "description": "Mercado Pago का आधिकारिक PHP SDK।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago SDK Python",
+          "url": "https://github.com/mercadopago/sdk-python",
+          "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-python",
+          "description": "Mercado Pago का आधिकारिक Python SDK।",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenPix Developers",
+          "url": "https://github.com/Open-Pix/openpix-developers",
+          "link": "https://go.mymarketing.click/pix-openpix-developers",
+          "description": "OpenPix का दस्तावेज़ कोड, इंटीग्रेशन के उदाहरणों के साथ।",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Woovi Developers",
+          "url": "https://github.com/woovibr/woovi-developers",
+          "link": "https://go.mymarketing.click/pix-woovi-developers",
+          "description": "Woovi का दस्तावेज़ कोड, इंटीग्रेशन के उदाहरणों के साथ।",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "bibliotecas",
+      "title": "ओपन सोर्स लाइब्रेरी",
+      "items": [
+        {
+          "name": "brcode",
+          "url": "https://github.com/naomijub/brcode",
+          "link": "https://go.mymarketing.click/pix-brcode",
+          "description": "Rust में Pix BR Code रीडर।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "emv-qrcode",
+          "url": "https://github.com/mvallim/emv-qrcode",
+          "link": "https://go.mymarketing.click/pix-emv-qrcode",
+          "description": "Java में EMV मानक पर आधारित QR Code जनरेटर और रीडर, जिस मानक पर BR Code चलता है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "go-pix",
+          "url": "https://github.com/fonini/go-pix",
+          "link": "https://go.mymarketing.click/pix-go-pix",
+          "description": "Go में लाइब्रेरी, जो Pix copia e cola और QR Code बनाती है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php_qrcode_pix",
+          "url": "https://github.com/renatomb/php_qrcode_pix",
+          "link": "https://go.mymarketing.click/pix-php-qrcode-pix",
+          "description": "PHP में Pix QR Code जनरेशन।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PHPay",
+          "url": "https://github.com/phpay-io/phpay",
+          "link": "https://go.mymarketing.click/pix-phpay",
+          "description": "PHP लाइब्रेरी, जो एक ही इंटरफ़ेस से कई पेमेंट प्रोवाइडर से इंटीग्रेशन देती है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-payload",
+          "url": "https://github.com/devcarlosalberto/pix-payload",
+          "link": "https://go.mymarketing.click/pix-pix-payload",
+          "description": "npm पैकेज, जो Banco Central के मानक के अनुसार Pix payload बनाता है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pix-utils",
+          "url": "https://github.com/thalesog/pix-utils",
+          "link": "https://go.mymarketing.click/pix-pix-utils",
+          "description": "TypeScript के टूल, जिनसे Pix कोड पढ़ें, बनाएँ और जाँचें।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PIX-BACEN-SDK-dotnet",
+          "url": "https://github.com/guibranco/PIX-BACEN-SDK-dotnet",
+          "link": "https://go.mymarketing.click/pix-pix-bacen-sdk-dotnet",
+          "description": "Banco Central की Pix API के .NET कॉन्ट्रैक्ट्स, आधिकारिक विनिर्देश से बने।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "pypix",
+          "url": "https://github.com/cleitonleonel/pypix",
+          "link": "https://go.mymarketing.click/pix-pypix",
+          "description": "Python लाइब्रेरी, जो Pix के BR Code और QR Code बनाती है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sdks-comunidade",
+      "title": "कम्युनिटी SDK",
+      "items": [
+        {
+          "name": "asaas (TypeScript)",
+          "url": "https://github.com/eduardobernardo/asaas",
+          "link": "https://go.mymarketing.click/pix-asaas-typescript",
+          "description": "TypeScript SDK, जो Asaas API की सबसे ज़्यादा इस्तेमाल होने वाली कॉल्स को आसान बनाता है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "asaas-sdk (PHP)",
+          "url": "https://github.com/codephix/asaas-sdk",
+          "link": "https://go.mymarketing.click/pix-asaas-sdk-php",
+          "description": "Asaas API के लिए PHP SDK।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "डेटा और यूटिलिटी",
+      "items": [
+        {
+          "name": "Bancos Brasileiros",
+          "url": "https://github.com/guibranco/BancosBrasileiros",
+          "link": "https://go.mymarketing.click/pix-bancos-brasileiros",
+          "description": "ब्राज़ीलियाई बैंकों की सूची, कोड, ISPB और नाम के साथ, कई फ़ॉर्मेट में।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ferramentas",
+      "title": "टूल",
+      "items": [
+        {
+          "name": "Gerador de QR Code Pix",
+          "url": "https://www.gerarpix.com.br/",
+          "link": "https://go.mymarketing.click/pix-gerador-de-qr-code-pix",
+          "description": "चाबी से ब्राउज़र में Pix QR Code, पर्ची और लिंक बनाता है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Infrastructure Payments",
+          "url": "https://myinfrastructure.click/products/payments",
+          "link": "https://go.mymarketing.click/pix-infrastructure-payments",
+          "description": "आपके Mercado Pago खाते से REST, React SDK और MCP के साथ एक बार का Pix और कार्ड बिलिंग।",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Marketing Stores",
+          "url": "https://mymarketing.click/products/stores",
+          "link": "https://go.mymarketing.click/pix-marketing-stores",
+          "description": "Pix भुगतान वाला ऑनलाइन स्टोर, QR Code और copia e cola के साथ, और कार्ड भुगतान सीधे मालिक के Mercado Pago में।",
+          "tags": [
+            "api"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "दूसरी सूचियाँ और कम्युनिटी",
+      "items": [
+        {
+          "name": "awesome-pix (Woovi)",
+          "url": "https://github.com/woovibr/awesome-pix",
+          "link": "https://go.mymarketing.click/pix-awesome-pix-woovi",
+          "description": "Pix पर संसाधनों की पहली सूची, जिसे Woovi बनाए रखता है।",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}
